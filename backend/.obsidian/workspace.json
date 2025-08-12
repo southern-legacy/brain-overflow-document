@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "doc/API.md",
+                "file": "doc/用户模块/API.md",
                 "mode": "source",
                 "source": false
               },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "doc/API.md",
+                "file": "doc/用户模块/API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,10 +183,10 @@
   },
   "active": "2351d5fd9fbf2dc1",
   "lastOpenFiles": [
+    "doc/API.md",
     "未命名.md",
     "doc/用户模块/API.md",
     "doc/用户模块/表.md",
-    "doc/API.md",
     "roadmap/目前架构.canvas",
     "doc/用户模块",
     "未命名",
