@@ -25,17 +25,14 @@
             "id": "2351d5fd9fbf2dc1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "roadmap/目前架构.canvas",
-                "viewState": {
-                  "x": -129.5,
-                  "y": 230,
-                  "zoom": 0
-                }
+                "file": "doc/用户模块/认证信息/API.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "目前架构"
+              "icon": "lucide-file",
+              "title": "API"
             }
           }
         ],
@@ -158,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roadmap/目前架构.canvas",
+                "file": "doc/用户模块/认证信息/API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "目前架构 的大纲"
+              "title": "API 的大纲"
             }
           }
         ],
@@ -186,15 +183,15 @@
   },
   "active": "2351d5fd9fbf2dc1",
   "lastOpenFiles": [
-    "doc/用户模块/个人信息/API.md",
-    "doc/用户模块/认证信息/API.md",
-    "doc/用户模块/个人信息/表.md",
-    "doc/用户模块/认证信息/表.md",
     "doc/API.md",
+    "doc/用户模块/认证信息/API.md",
+    "doc/用户模块/认证信息/表.md",
+    "doc/用户模块/个人信息/表.md",
+    "roadmap/目前架构.canvas",
+    "doc/用户模块/个人信息/API.md",
     "doc/用户模块/认证信息",
     "doc/用户模块/个人信息",
     "未命名.md",
-    "roadmap/目前架构.canvas",
     "doc/用户模块",
     "未命名",
     "doc",
