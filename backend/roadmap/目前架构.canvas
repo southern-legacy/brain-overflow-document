@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"304bc904edf8b8b9","type":"text","text":"API\n1. login，提供登录功能，返回 `JWT`\n2. sign in，提供注册功能，返回jwt\n3. delete acocunt，提供注册功能，返回 jwt","x":-484,"y":91,"width":264,"height":229},
 		{"id":"755688987c3f01cf","type":"text","text":"用户模块，保存了和用户信息相关的表，包括用户的基本信息。还有社群之类的，方便新建一个论坛或者一个社区。","x":-124,"y":40,"width":319,"height":125},
-		{"id":"b8e9b03007462145","type":"text","text":"实体：\n1. [[表#用户基本信息表]]，提供最基本的**个人信息**用于验证和标识用户\n","x":-154,"y":280,"width":379,"height":140}
+		{"id":"b8e9b03007462145","type":"text","text":"实体：\n1. [[doc/用户模块/认证信息/表#用户基本信息表|用户基本信息表]]，提供最基本的**个人信息**用于验证和标识用户\n","x":-154,"y":280,"width":379,"height":120}
 	],
 	"edges":[
 		{"id":"32858515303ae2c9","fromNode":"755688987c3f01cf","fromSide":"bottom","toNode":"b8e9b03007462145","toSide":"top"},
