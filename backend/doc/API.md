@@ -29,7 +29,7 @@
 #### 服务器响应
 405（Method Not Allowed）
 
-### 服务器校验
+### 服务器校验或者参数不正确
 #### 场景
 服务器会对客户端发来的数据进行校验，如果数据没有通过校验，则会出发此错误，如：密码太短；邮箱格式不符合要求
 #### 客户端应做的
@@ -44,6 +44,7 @@
 {"code":"queryParamDeserializeFailed"}   // URI 请求参数反序列化失败
 {"code":"contentTypeMissing"}            // Content-Type 首部缺失
 {"code":"failedBufferBody"}              // 服务器无法缓存请求体
+{"code":"invalidParam"}                  // 参数未通过服务器校验
 ```
 
 ### 数据库可处理错误
