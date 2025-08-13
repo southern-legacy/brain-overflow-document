@@ -5,7 +5,7 @@
 #### 客户端应做的
 重写，或者报告 `BUG`
 #### 服务器响应
-400（Bad Request）
+400（Bad Request），还有对应的相应内容，相应内容在 [[doc/API#服务器校验#服务器响应|服务器校验]] 部分
 
 ### 服务器无法确认登录状态
 #### 场景
@@ -35,7 +35,16 @@
 #### 客户端应做的
 提示用户重新输入一个新的值
 #### 服务器响应
-422 （Unprocessable Entity）
+422 （Unprocessable Entity），响应内容为以下内容之一
+```json
+{"code":"jsonDataError"}                 // json 合法，但是无法转换为服务器要求的结构
+{"code":"jsonSyntaxError"}               // json 语法错误
+{"code":"pathFormatError"}               // path 参数格式错误，例如服务器要求一个数字id，但是参数提供的是一个非数字的字符串
+{"code":"pathMissingFields"}             // path 参数不完整
+{"code":"queryParamDeserializeFailed"}   // URI 请求参数反序列化失败
+{"code":"contentTypeMissing"}            // Content-Type 首部缺失
+{"code":"failedBufferBody"}              // 服务器无法缓存请求体
+```
 
 ### 数据库可处理错误
 #### 场景
