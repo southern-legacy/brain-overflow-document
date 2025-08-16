@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "doc/使用方法.md",
+                "file": "doc/用户模块/认证信息/API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用方法"
+              "title": "API"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "doc/使用方法.md",
+                "file": "doc/用户模块/认证信息/API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用方法 的大纲"
+              "title": "API 的大纲"
             }
           }
         ],
@@ -168,8 +168,8 @@
   },
   "active": "1e1661e4cfbd67f7",
   "lastOpenFiles": [
-    "doc/API.md",
     "doc/使用方法.md",
+    "doc/API.md",
     "doc/用户模块/认证信息/API.md",
     "doc/用户模块/认证信息/表.md",
     "doc/用户模块/个人信息/表.md",
